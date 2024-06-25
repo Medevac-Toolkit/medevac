@@ -2,7 +2,7 @@
 ![image](https://github.com/Medevac-Toolkit/medevac/assets/1908752/4d0ec5bd-d9fd-46b9-b0b3-15d05c48368f)
 ## Overview
 
-Medevac is a tool designed to automate the detection, analysis, and resolution of common issues in Kubernetes clusters. Inspired by the concept of medical evacuation (medevac), this tool aims to swiftly diagnose and fix problems in your containerized environments, ensuring optimal performance and uptime.
+Medevac is a tool designed to automate the detection, analysis, and resolution of common issues in Kubernetes clusters. This tool aims to swiftly diagnose and fix problems in your containerized environments, ensuring optimal performance and uptime.
 
 ## Features
 
