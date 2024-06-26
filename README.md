@@ -30,6 +30,7 @@ Medevac consists of several key components:
 
 ## TODO
 
+- [ ] scripts that sets up minikube to emulate different production-like incidents
 - [ ] cli mode to detect very basic container issues like eviction policy
 - [ ] agent mode using custom CRD
 - [ ] setup CI pipeline /w github actions with docker registry for convenient integration testing
