@@ -1,0 +1,12 @@
+# Binaries
+medevac
+
+# Build directories
+build/
+
+# IDE files
+.idea/
+.vscode/
+
+# Go modules
+vendor/
