@@ -28,6 +28,12 @@ Medevac consists of several key components:
 
 **Work in Progress**: Medevac is currently under development. It is not recommended for production use at this stage.
 
+## TODO
+
+- [ ] cli mode to detect very basic container issues like eviction policy
+- [ ] agent mode using custom CRD
+- [ ] setup CI pipeline /w github actions with docker registry for convenient integration testing
+
 ## License
 
 Medevac is released under the MIT License. See the [LICENSE](LICENSE) file for more details.

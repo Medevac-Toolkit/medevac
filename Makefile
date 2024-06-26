@@ -9,7 +9,7 @@ deps:
 
 # Build the binary
 build:
-	go build -o medevac cmd/root.go
+	go build -o medevac main.go
 
 # Run tests
 test:
