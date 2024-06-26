@@ -1,4 +1,4 @@
-theme: minimal
+theme: "minimal"
 title: Medevac
 description: A diagnostic tool for kubernetes clusters
 logo: /docs/logo.jpeg
