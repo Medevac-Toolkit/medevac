@@ -33,7 +33,12 @@ Medevac consists of several key components:
 - [ ] scripts that sets up minikube to emulate different production-like incidents
 - [ ] cli mode to detect very basic container issues like eviction policy
 - [ ] agent mode using custom CRD
+- [ ] public plugin api that allows users to define custom stategies for detecting issues
+    - [ ] plugin loader (https://eli.thegreenplace.net/2023/rpc-based-plugins-in-go/)
+    - [ ] sample plugin repository
+    - [ ] (optional) scripting api with lua
 - [ ] setup CI pipeline /w github actions with docker registry for convenient integration testing
+
 
 ## License
 
