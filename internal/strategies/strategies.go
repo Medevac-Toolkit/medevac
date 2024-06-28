@@ -17,9 +17,7 @@ type RestartDetector struct {
 
 func (r RestartDetector) DetectIssues(pod v1.Pod) string {
 	for _, containerStatus := range pod.Status.ContainerStatuses {
-		if containerStatus.RestartCount > r.Threshold {
-			return fmt.Sprintf("Container %s has restarted %d times", containerStatus.Name, containerStatus.RestartCount)
-		}
+		fmt.Println(containerStatus)
 	}
 	return ""
 }
