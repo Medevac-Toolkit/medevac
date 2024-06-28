@@ -1,0 +1,40 @@
+project_name: medevac
+
+release:
+  github:
+    owner: Medevac-Tools
+    name: medevac
+
+builds:
+  - env:
+      - CGO_ENABLED=0
+    goos:
+      - linux
+      - darwin
+      - windows
+    goarch:
+      - amd64
+      - arm64
+    main: ./cmd/medevac/main.go
+    binary: medevac
+
+archives:
+  - format: tar.gz
+    name_template: "{{ .ProjectName }}_{{ .Version }}_{{ .Os }}_{{ .Arch }}"
+    files:
+      - LICENSE
+      - README.md
+
+dockers:
+  - image_templates:
+      - ghcr.io/Medevac-Tools/medevac:latest
+      - ghcr.io/Medevac-Tools/medevac:{{ .Version }}
+    dockerfile: Dockerfile
+    goos: linux
+    goarch: amd64
+    skip_push: false
+    build_flag_templates:
+      - --build-arg=VERSION={{ .Version }}
+
+checksum:
+  name_template: "{{ .ProjectName }}_{{ .Version }}_checksums.txt"
