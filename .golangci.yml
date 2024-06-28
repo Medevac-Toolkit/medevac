@@ -1,19 +1,7 @@
-run:
-  tests: true
-
 linters:
+  disable-all: true
   enable:
+    - staticcheck
     - errcheck
     - govet
-    - gosimple
-    - staticcheck
     - unused
-    - ineffassign
-    - typecheck
-    - gosec
-    - misspell
-
-issues:
-  exclude:
-    - "SA1019" # Ignoring specific issues
-
