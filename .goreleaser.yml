@@ -27,8 +27,8 @@ archives:
 
 dockers:
   - image_templates:
-      - ghcr.io/Medevac-Tools/medevac:latest
-      - ghcr.io/Medevac-Tools/medevac:{{ .Version }}
+      - ghcr.io/Medevac-Toolkit/medevac:latest
+      - ghcr.io/Medevac-Toolkit/medevac:{{ .Version }}
     dockerfile: Dockerfile
     goos: linux
     goarch: amd64

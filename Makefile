@@ -25,7 +25,7 @@ run:
 
 # Build Docker image
 docker:
-	docker build -t gcr.io/Medevac-Tools/medevac:latest .
+	docker build -t gcr.io/Medevac-Toolkit/medevac:latest .
 
 # Clean build files
 clean:
