@@ -28,7 +28,6 @@ jobs:
         uses: golangci/golangci-lint-action@v2
         with:
           config: .golangci.yml
-          output-format: colored-line-number
 
       - name: Build
         run: make build
