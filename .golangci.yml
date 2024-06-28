@@ -11,9 +11,6 @@ linters:
     - ineffassign
     - typecheck
     - gosec
-    - deadcode
-    - structcheck
-    - varcheck
     - misspell
 
 issues:
