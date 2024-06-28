@@ -38,8 +38,8 @@ Medevac consists of several key components:
     - [ ] sample plugin repository
     - [ ] (optional) scripting api with lua
 - [ ] setup CI pipeline /w github actions with docker registry for convenient integration testing
-    - [ ] linting (golangci-lint)
-    - [ ] goreleaser
+    - [x] linting (golangci-lint)
+    - [x] goreleaser
 
 ## Backlog of ideas
 
